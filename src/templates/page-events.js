@@ -3,14 +3,14 @@ import React from "react";
 const PageEvents = props => {
   console.log(props.pageEvents);
   return (
-    <div class="module-container">
+    <div class='module-container'>
       {props.pageEvents.map((event, idx) => (
-        <div class="module" key={idx}>
+        <div class='module' key={idx}>
           <center>
             <img
               src={event.eventImage}
               alt={event.eventTitle}
-              class="z-depth-3"
+              class='z-depth-3'
             />
           </center>
 

@@ -76,6 +76,7 @@ export const pageQuery = graphql`
           eventDescription
           eventImage
           eventTitle
+          eventLink
         }
       }
     }
