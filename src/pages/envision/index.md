@@ -7,9 +7,9 @@ subheading: >-
   school girls to career possibilities in science and technology.
 sectionTitle: SWE ENVISION
 pageEvents:
-  - evenLink: 'http://ucsdenvision.wixsite.com/envision'
-    eventDescription: Click here to find out more about Envision
+  - eventDescription: Click here to find out more about Envision
     eventImage: 'https://i.imgur.com/R8zQdE9.jpg'
+    eventLink: 'https://swe-ucsd.netlify.com/'
     eventTitle: SWE Envision
 ---
 
