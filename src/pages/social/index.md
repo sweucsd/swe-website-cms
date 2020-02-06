@@ -10,12 +10,12 @@ sectionDescription: >-
   Please stop by our booth at the following locations to learn more about social
   activities with SWE.
 pageEvents:
-  - evenLink: 'https://www.facebook.com/events/2182458508668527/'
-    eventDescription: >-
+  - eventDescription: >-
       Come to our Pumpkin Carving Social with IEEE and HKN! Pumpkins will be
       first come first served so be sure to come out and have a SPOOK-tacular
       time!
     eventImage: 'https://i.imgur.com/LfoTXiq.jpg'
+    eventLink: 'https://swe-ucsd.netlify.com/'
     eventTitle: Pumpkin Carving Social
 ---
 
