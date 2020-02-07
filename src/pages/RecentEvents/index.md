@@ -1,18 +1,11 @@
 ---
 templateKey: recent-events
-title: RECENT EVENTS
 featuredEvents:
-  - date: 2019-11-22T09:57:23.802Z
-    link: link
-    title: Event 1
-  - date: 2019-11-22T09:57:23.802Z
-    link: link
-    title: Event 2
-  - date: 2019-11-22T09:57:23.802Z
-    link: link
-    title: Event 3
-  - date: 2019-11-22T09:57:23.802Z
-    link: link
-    title: Event 4
+  - date: 2020-02-08T09:57:23.802Z
+    link: 'https://ucsdenvision.wixsite.com/envision'
+    title: Envision 2020
+  - date: 2020-02-18T09:57:23.802Z
+    link: 'https://www.facebook.com/events/473517343585154/'
+    title: 'SWE-BM #3'
 ---
 
