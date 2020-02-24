@@ -9,11 +9,17 @@ sectionTitle: SOCIAL EVENTS
 sectionDescription: 'Check out our social events! '
 pageEvents:
   - eventDescription: >-
-      Come celebrate Galentine's day with SWE! We'll have chocolate, candy, face
-      masks and we'll be watching the perfect Galentine's day movie: Pitch
-      Perfect! Stop by, you'll love it!
-    eventImage: /img/winter-2020-galentine-s-social-2-_page-0001.jpg
-    eventLink: 'https://www.facebook.com/events/122888782386780/'
-    eventTitle: Galentine's Social
+      Come to our Bob Ross Painting Social and create a masterpiece! All
+      abilities and happy trees welcomed! In this session we’ll follow a Bob
+      Ross tutorial video together on Canvas!
+    link: 'https://www.facebook.com/events/1275420975982702/'
+    title: 'Bob Ross Painting Social '
+    image: /img/winter-2020-bob-ross-painting-social-_page-0001.jpg
+  - eventDescription: >-
+      Come de-stress with SWE as we engage in some arts and crafts and enjoy
+      some snacks and music to get your mind off of finals!
+    link: facebook.com/events/244802463181522/
+    title: Finals De-Stress
+    image: /img/winter-2020-destress-social-1-_page-0001.jpg
 ---
 
