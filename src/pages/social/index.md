@@ -9,17 +9,15 @@ sectionTitle: SOCIAL EVENTS
 sectionDescription: 'Check out our social events! '
 pageEvents:
   - eventDescription: >-
-      Come to our Bob Ross Painting Social and create a masterpiece! All
-      abilities and happy trees welcomed! In this session we’ll follow a Bob
-      Ross tutorial video together on Canvas!
-    link: 'https://www.facebook.com/events/1275420975982702/'
-    title: 'Bob Ross Painting Social '
-    image: /img/winter-2020-bob-ross-painting-social-_page-0001.jpg
-  - eventDescription: >-
-      Come de-stress with SWE as we engage in some arts and crafts and enjoy
-      some snacks and music to get your mind off of finals!
-    link: facebook.com/events/244802463181522/
-    title: Finals De-Stress
-    image: /img/winter-2020-destress-social-1-_page-0001.jpg
+      Think you have good drawing skills? How good are you at scribbling? Come
+      unwind and be silly with other SWE bees and see who will master the game
+      of Pictionary and Scribble! 
+    link: 'https://www.facebook.com/events/233052304599612/'
+    title: 'SWE Pictionary & Scribble '
+    image: /img/spring-2020-pictionary_charades_page-0001.jpg
+  - eventDescription: 'HKN Discord: https://discord.gg/dX7xc73'
+    link: 'https://www.facebook.com/events/552630119010248/'
+    title: ECE Game Night
+    image: /img/ece-game-night-flyer.jpg
 ---
 
