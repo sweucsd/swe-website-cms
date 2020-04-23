@@ -1,14 +1,11 @@
 ---
 templateKey: recent-events
 featuredEvents:
-  - date: 2020-02-28T08:00:00.000Z
-    link: 'https://www.facebook.com/events/1275420975982702/'
-    title: 'Bob Ross Painting Social '
-  - date: 2020-03-03T07:16:01.516Z
-    link: 'https://www.facebook.com/events/244802463181522/'
-    title: Finals De-Stress
-  - date: 2020-03-05T07:16:21.782Z
-    link: 'https://www.facebook.com/events/123358279105415/'
-    title: 'Matlab Workshop '
+  - date: 2020-04-28T21:36:37.985Z
+    link: 'https://www.facebook.com/events/680780579402049/'
+    title: 'SWE Virtual GBM #1 '
+  - date: 2020-04-29T21:36:38.868Z
+    link: 'https://www.facebook.com/events/233052304599612/'
+    title: 'SWE Pictionary & Scribbles '
 ---
 
