@@ -16,7 +16,9 @@ const PageEvents = (props) => {
               alt={event.eventTitle}
               className='z-depth-3'
             /> */}
-              <PreviewCompatibleImage imageInfo={event} />
+              <a href={event.link}>
+                <PreviewCompatibleImage imageInfo={event} />
+              </a>
             </center>
 
             <a href={event.link}>
