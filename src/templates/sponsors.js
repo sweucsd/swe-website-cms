@@ -12,7 +12,13 @@ const Sponsors = () => {
               title
               featuredSponsors {
                 title
-                image
+                image {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
