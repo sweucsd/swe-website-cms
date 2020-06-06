@@ -34,6 +34,7 @@ const Sponsors = () => {
                   <div className="col-md-4" key={idx}>
                     <figure>
                       {/* <img src={sponsor.sponsorImage} alt={sponsor.title} /> */}
+
                       <PreviewCompatibleImage imageInfo={sponsor} />
                     </figure>
                   </div>
