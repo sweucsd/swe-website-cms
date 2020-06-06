@@ -5,10 +5,10 @@ class ContactForm extends React.Component {
     name: "",
     email: "",
     phone: "",
-    message: ""
+    message: "",
   };
 
-  handleChange = e => {
+  handleChange = (e) => {
     let name = e.target.name;
     let value = e.target.value;
     this.setState({ [name]: value });
@@ -20,6 +20,7 @@ class ContactForm extends React.Component {
     return (
       <form action={this.props.formLink} method="POST">
         <input
+          aria-label="Name"
           type="text"
           name="name"
           placeholder="Name"
@@ -28,6 +29,7 @@ class ContactForm extends React.Component {
           value={name}
         />
         <input
+          aria-label="Email"
           type="email"
           name="email"
           placeholder="Email"
@@ -36,6 +38,7 @@ class ContactForm extends React.Component {
           value={email}
         />
         <input
+          aria-label="Phone Number"
           type="tel"
           name="phone"
           placeholder="Phone Number"
@@ -43,6 +46,7 @@ class ContactForm extends React.Component {
           value={phone}
         />
         <textarea
+          aria-label="Message"
           name="message"
           placeholder="Message"
           required
@@ -50,7 +54,12 @@ class ContactForm extends React.Component {
           value={message}
         ></textarea>
 
-        <input type="submit" value="Send" class="z-depth-3" />
+        <input
+          aria-label="Submit"
+          type="submit"
+          value="Send"
+          className="z-depth-3"
+        />
       </form>
     );
   }

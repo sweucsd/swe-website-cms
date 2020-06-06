@@ -6,7 +6,7 @@ const Navbar = class extends React.Component {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: "",
     };
   }
 
@@ -14,17 +14,17 @@ const Navbar = class extends React.Component {
     // toggle the active boolean in the state
     this.setState(
       {
-        active: !this.state.active
+        active: !this.state.active,
       },
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "active"
+              navBarActiveClass: "active",
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: "",
             });
       }
     );
@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
       <div id="pattern" className="pattern">
         <a
           className={`menu-link ${navBarActiveClass}`}
-          href="javascript:void(0)"
+          // href="javascript:void(0)"
           onClick={() => this.toggleHamburger()}
           style={{ cursor: "pointer" }}
           role="button"

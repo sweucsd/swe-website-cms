@@ -5,16 +5,16 @@ import PropTypes from "prop-types";
 const PageEvents = (props) => {
   // console.log(props.pageEvents);
   return (
-    <div class="module-container">
+    <div className="module-container">
       {props.pageEvents.map((event, idx) => {
         console.log({ event });
         return (
-          <div class="module" key={idx}>
+          <div className="module" key={idx}>
             <center>
               {/* <img
               src={event.eventImage}
               alt={event.eventTitle}
-              class='z-depth-3'
+              className='z-depth-3'
             /> */}
               <PreviewCompatibleImage imageInfo={event} />
             </center>

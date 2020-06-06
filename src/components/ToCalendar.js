@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 
 const ToCalendar = () => {
   return (
-    <p class="full-container">
-      <Link to="/calendar" class="full">
+    <p className="full-container">
+      <Link to="/calendar" className="full">
         Full Calendar
       </Link>
     </p>
