@@ -36,8 +36,13 @@ collections:
               - { label: "Sponsor Name", name: "title", widget: "string" }
               - {
                   label: "Sponsor Image",
-                  name: "sponsorImage",
-                  widget: "image",
+                  name: "image",
+                  widget: "object",
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
                 }
       - file: "src/pages/social-media/index.md"
         name: "social-media"
@@ -110,7 +115,7 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: string }
+          - { label: Image, name: image, widget: image }
           - { label: Subheading, name: subheading, widget: string }
           - {
               label: "Main Section Heading",
@@ -148,7 +153,16 @@ collections:
               - { label: Name, name: name, widget: string }
               - { label: Email, name: email, widget: string }
               - { label: Position, name: position, widget: string }
-              - { label: Image, name: image, widget: image }
+              - {
+                  label: Image,
+                  name: image,
+                  widget: object,
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
+                }
       - file: "src/pages/calendar/index.md"
         label: "Calendar Page"
         name: "calendar"
@@ -183,14 +197,23 @@ collections:
             widget: "list"
             create: true
             fields:
-              - { label: "Event Title", name: "eventTitle", widget: "string" }
+              - { label: "Event Title", name: "title", widget: "string" }
               - {
                   label: "Event Description ",
                   name: "eventDescription",
                   widget: "string",
                 }
-              - { label: "Photo", name: "eventImage", widget: "string" }
-              - { label: "Link", name: "eventLink", widget: "string" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "object",
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
+                }
+              - { label: "Link", name: "link", widget: "string" }
       - file: "src/pages/social/index.md"
         label: "Social Page"
         name: "social"
@@ -219,14 +242,23 @@ collections:
             widget: "list"
             create: true
             fields:
-              - { label: "Event Title", name: "eventTitle", widget: "string" }
+              - { label: "Event Title", name: "title", widget: "string" }
               - {
                   label: "Event Description ",
                   name: "eventDescription",
                   widget: "string",
                 }
-              - { label: "Photo", name: "eventImage", widget: "image" }
-              - { label: "Link", name: "eventLink", widget: "string" }
+              - {
+                  label: "Photo",
+                  name: "image",
+                  widget: "object",
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
+                }
+              - { label: "Link", name: "link", widget: "string" }
       - file: "src/pages/professional/index.md"
         label: "Professional Page"
         name: "professional"
@@ -255,14 +287,23 @@ collections:
             widget: "list"
             create: true
             fields:
-              - { label: "Event Title", name: "eventTitle", widget: "string" }
+              - { label: "Event Title", name: "title", widget: "string" }
               - {
                   label: "Event Description ",
                   name: "eventDescription",
                   widget: "string",
                 }
-              - { label: "Photo", name: "eventImage", widget: "image" }
-              - { label: "Link", name: "eventLink", widget: "string" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "object",
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
+                }
+              - { label: "Link", name: "link", widget: "string" }
       - file: "src/pages/outreach/index.md"
         label: "Outreach Page"
         name: "outreach"
@@ -291,14 +332,23 @@ collections:
             widget: "list"
             create: true
             fields:
-              - { label: "Event Title", name: "eventTitle", widget: "string" }
+              - { label: "Event Title", name: "title", widget: "string" }
               - {
                   label: "Event Description ",
                   name: "eventDescription",
                   widget: "string",
                 }
-              - { label: "Photo", name: "eventImage", widget: "image" }
-              - { label: "Link", name: "eventLink", widget: "string" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "object",
+                  fields:
+                    [
+                      { label: Image, name: image, widget: image },
+                      { label: Alt, name: alt, widget: string },
+                    ],
+                }
+              - { label: "Link", name: "link", widget: "string" }
       - file: "src/pages/contact/index.md"
         label: "Contact Page"
         name: "contact"

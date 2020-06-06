@@ -1,13 +1,13 @@
 import React from "react";
 
-const HeroSection = props => {
-  console.log({ props });
+const HeroSection = (props) => {
+  // console.log({ props });
   return (
     <section
       className="hero section"
       style={{
         background: `url(${props.image}) no-repeat center center fixed`,
-        backgroundSize: "cover"
+        backgroundSize: "cover",
       }}
     >
       <article className="hero__content z-depth-3">

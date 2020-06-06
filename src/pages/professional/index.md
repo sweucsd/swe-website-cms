@@ -6,21 +6,16 @@ subheading: >-
   Networking, Resume Workshops, Technical Teams, and Career Fairs are all
   examples of UC San Diego SWE’s commitment to professional development. Come
   join us to gain industry contacts and meet with company representatives in a
-  diverse environment.
+  diverse environment!
 sectionTitle: UPCOMING PROFESSIONAL EVENTS
-sectionDescription: UCSD SWE is proud to present the following professional events
+sectionDescription: UCSD SWE is proud to present the following professional events!
 pageEvents:
-  - evenLink: 'http://swe.ucsd.edu/professional/'
-    eventDescription: ad;fljal;dfladjf;ljadf
-    eventImage: 'https://i.imgur.com/W9kzquX.jpg'
-    eventTitle: professional event 1
-  - evenLink: 'http://swe.ucsd.edu/'
-    eventDescription: asdfasd;fsadfsdf
-    eventImage: 'https://i.imgur.com/oW5c6T0.jpg'
-    eventTitle: professional event 2
-  - evenLink: link
-    eventDescription: adfasdfasdfasdfasdfasdfasdfasdfasdfas
-    eventImage: 'https://i.imgur.com/tvfQOdG.jpg'
-    eventTitle: professional event 3
+  - eventDescription: >-
+      Join SWE and IEEE to get a quick introduction to Matlab fundamentals,
+      resources, and data visualization as an application! Plus, there will be a
+      taco bar! 
+    link: 'https://www.facebook.com/events/123358279105415/'
+    title: 'Matlab Workshop '
+    image: /img/winter-2020-matlab-workshop-1-_page-0001.jpg
 ---
 

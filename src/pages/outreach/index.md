@@ -2,19 +2,17 @@
 templateKey: outreach-page
 title: Outreach
 image: 'https://i.imgur.com/iHPKut7.jpg'
-subheading: Join the women of UCSD SWE as we inspire future women in STEM.
+subheading: Join the women of UCSD SWE as we inspire future women in STEM!
 sectionTitle: UPCOMING OUTREACH EVENTS
-sectionDescription: >-
-  Stay tuned for new outreach events. Please visit our Envision page to learn
-  about our annual outreach.
+sectionDescription: 'See our outreach events below! '
 pageEvents:
-  - evenLink: link
-    eventDescription: asdfasdfasdfasdfadsfas
-    eventImage: 'https://i.imgur.com/bk3c3nz.jpg'
-    eventTitle: outreach event 1
-  - evenLink: link
-    eventDescription: asdfasdfasdfasdfasdfasdfasdfasdfasd
-    eventImage: 'https://i.imgur.com/rpcTaTl.jpg'
-    eventTitle: outreach event 2
+  - eventDescription: >-
+      SWE and TBP are hosting an electrical engineering workshop for students
+      from Black Mountain Middle School! We're looking for volunteers to help us
+      ensure everything runs smoothly :) Please sign up for one of the shifts at
+      https://forms.gle/PZCPX7dNf3JpBSJU8
+    eventImage: /img/winter-2020-black-mountain-1-_page-0001.jpg
+    eventLink: 'https://www.facebook.com/events/195452451606187/'
+    eventTitle: SWE x TBP Black Mountain Middle School Outreach
 ---
 

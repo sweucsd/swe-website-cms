@@ -4,18 +4,22 @@ title: Social
 image: 'https://i.imgur.com/uhW6Suq.jpg'
 subheading: >-
   Come join the women of UC San Diego SWE to meet new friends, take a break from
-  your classes, and just have a good time.
-sectionTitle: UPCOMING SOCIAL EVENTS
-sectionDescription: >-
-  Please stop by our booth at the following locations to learn more about social
-  activities with SWE.
+  your classes, and just have a good time!
+sectionTitle: SOCIAL EVENTS
+sectionDescription: 'Check out our social events! '
 pageEvents:
-  - evenLink: 'https://www.facebook.com/events/2182458508668527/'
-    eventDescription: >-
-      Come to our Pumpkin Carving Social with IEEE and HKN! Pumpkins will be
-      first come first served so be sure to come out and have a SPOOK-tacular
-      time!
-    eventImage: 'https://i.imgur.com/LfoTXiq.jpg'
-    eventTitle: Pumpkin Carving Social
+  - eventDescription: >-
+      Come to our Bob Ross Painting Social and create a masterpiece! All
+      abilities and happy trees welcomed! In this session we’ll follow a Bob
+      Ross tutorial video together on Canvas!
+    link: 'https://www.facebook.com/events/1275420975982702/'
+    title: 'Bob Ross Painting Social '
+    image: /img/winter-2020-bob-ross-painting-social-_page-0001.jpg
+  - eventDescription: >-
+      Come de-stress with SWE as we engage in some arts and crafts and enjoy
+      some snacks and music to get your mind off of finals!
+    link: facebook.com/events/244802463181522/
+    title: Finals De-Stress
+    image: /img/winter-2020-destress-social-1-_page-0001.jpg
 ---
 

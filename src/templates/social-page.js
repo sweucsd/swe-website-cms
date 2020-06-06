@@ -15,7 +15,7 @@ export const SocialPageTemplate = ({
   subheading,
   sectionTitle,
   sectionDescription,
-  pageEvents
+  pageEvents,
 }) => (
   <Fragment>
     <HeroSection image={image} title={title} subheading={subheading} />
@@ -33,7 +33,7 @@ SocialPageTemplate.propTypes = {
   subheading: PropTypes.string,
   sectionTitle: PropTypes.string,
   sectionDescription: PropTypes.string,
-  pageEvents: PropTypes.arrayOf(PropTypes.object)
+  pageEvents: PropTypes.arrayOf(PropTypes.object),
 };
 
 const SocialPage = ({ data }) => {
@@ -56,9 +56,9 @@ const SocialPage = ({ data }) => {
 SocialPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default SocialPage;
@@ -74,8 +74,15 @@ export const pageQuery = graphql`
         sectionDescription
         pageEvents {
           eventDescription
-          eventImage
-          eventTitle
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          title
+          link
         }
       }
     }
