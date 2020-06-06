@@ -15,7 +15,7 @@ export const OutreachPageTemplate = ({
   subheading,
   sectionTitle,
   sectionDescription,
-  pageEvents
+  pageEvents,
 }) => (
   <Fragment>
     <HeroSection image={image} title={title} subheading={subheading} />
@@ -33,7 +33,7 @@ OutreachPageTemplate.propTypes = {
   subheading: PropTypes.string,
   sectionTitle: PropTypes.string,
   sectionDescription: PropTypes.string,
-  pageEvents: PropTypes.arrayOf(PropTypes.object)
+  pageEvents: PropTypes.arrayOf(PropTypes.object),
 };
 
 const OutreachPage = ({ data }) => {
@@ -56,9 +56,9 @@ const OutreachPage = ({ data }) => {
 OutreachPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default OutreachPage;
@@ -74,9 +74,15 @@ export const pageQuery = graphql`
         sectionDescription
         pageEvents {
           eventDescription
-          eventImage
-          eventTitle
-          eventLink
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          title
+          link
         }
       }
     }
