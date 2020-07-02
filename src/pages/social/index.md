@@ -9,7 +9,7 @@ sectionDescription: "Check out our social events! "
 pageEvents:
   - image:
       image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
-      alt: https://imgur.com/a/POgRkGD
+      alt: "0"
     link: https://imgur.com/a/POgRkGD
     title: FIsh
     eventDescription: fjiajoq[a
