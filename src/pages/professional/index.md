@@ -13,6 +13,6 @@ pageEvents:
     eventDescription: "Join us in New Orleans for the annual SWE conference! "
     image:
       image: /img/apple-touch-icon.png
-      alt: "coffee cup "
+      alt: coffee cup test
     link: https://we20.swe.org/
 ---
