@@ -9,7 +9,7 @@ sectionDescription: "Check out our social events! "
 pageEvents:
   - image:
       image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
-      alt: test photo of fish
+      alt: "test photo of fish "
     link: https://imgur.com/a/POgRkGD
     title: "Test "
     eventDescription: "Test Description "
