@@ -74,12 +74,9 @@ export const pageQuery = graphql`
         sectionDescription
         pageEvents {
           eventDescription
-          image {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
-            }
+          eventImage {
+            image
+            alt
           }
           title
           link

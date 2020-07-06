@@ -204,8 +204,8 @@ collections:
                   widget: "string",
                 }
               - {
-                  label: "Image",
-                  name: "image",
+                  label: "Event Image",
+                  name: "eventImage",
                   widget: "object",
                   fields:
                     [
@@ -249,8 +249,8 @@ collections:
                   widget: "string",
                 }
               - {
-                  label: "Photo",
-                  name: "image",
+                  label: "Event Image",
+                  name: "eventImage",
                   widget: "object",
                   fields:
                     [
@@ -294,8 +294,8 @@ collections:
                   widget: "string",
                 }
               - {
-                  label: "Image",
-                  name: "image",
+                  label: "Event Image",
+                  name: "eventImage",
                   widget: "object",
                   fields:
                     [
@@ -339,8 +339,8 @@ collections:
                   widget: "string",
                 }
               - {
-                  label: "Image",
-                  name: "image",
+                  label: "Event Image",
+                  name: "eventImage",
                   widget: "object",
                   fields:
                     [

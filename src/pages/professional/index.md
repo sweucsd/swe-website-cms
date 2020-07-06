@@ -11,7 +11,7 @@ sectionDescription: UCSD SWE is proud to present the following professional even
 pageEvents:
   - title: WE20 Confernce
     eventDescription: "Join us in New Orleans for the annual SWE conference! "
-    image:
+    eventImage:
       image: /img/apple-touch-icon.png
       alt: coffee cup test
     link: https://we20.swe.org/
