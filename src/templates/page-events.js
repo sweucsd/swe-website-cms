@@ -17,7 +17,7 @@ const PageEvents = (props) => {
               className='z-depth-3'
             /> */}
               <a href={event.link}>
-                <PreviewCompatibleImage imageInfo={event} />
+                <PreviewCompatibleImage imageInfo={event.eventImage} />
               </a>
             </center>
 
@@ -35,7 +35,7 @@ const PageEvents = (props) => {
 PageEvents.propTypes = {
   pageEvents: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      eventImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       title: PropTypes.string,
       link: PropTypes.string,
       eventDescription: PropTypes.string,
