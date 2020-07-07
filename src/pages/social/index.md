@@ -13,4 +13,7 @@ pageEvents:
       image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
       alt: asdfasdf
     link: https://www.youtube.com/
+    eventImage:
+      image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
+      alt: blue fish
 ---
