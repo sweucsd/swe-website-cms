@@ -13,4 +13,13 @@ pageEvents:
     link: https://imgur.com/a/POgRkGD
     title: "Test "
     eventDescription: "Test Description "
+    image:
+      image: /img/products-grid3.jpg
+      alt: "456456456"
+  - title: This is a test
+    eventDescription: please disregard
+    image:
+      image: /img/coffee.png
+      alt: test 123
+    link: https://www.youtube.com/
 ---
