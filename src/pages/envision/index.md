@@ -6,8 +6,7 @@ subheading: Envision is a free all-day conference held at UC San Diego that
   exposes high school girls to career possibilities in science and technology!
 sectionTitle: ENVISION 2020
 pageEvents:
-  - eventDescription:
-      "Thank you to everyone who participated in Envision 2020! We
+  - eventDescription: "Thank you to everyone who participated in Envision 2020! We
       hope to inspire young women to pursue careers in the STEM field! "
     link: https://ucsdenvision.wixsite.com/envision
     title: "Envision 2020 "
@@ -15,9 +14,9 @@ pageEvents:
       image: /img/dsc_0359.jpg
       alt: test test
   - title: test title
-    eventDescription: test description
+    eventDescription: "test description #3"
     eventImage:
       image: /img/flavor_wheel.jpg
-      alt: test alt
+      alt: "test alt "
     link: sweucsd.org/envision
 ---
