@@ -75,7 +75,13 @@ export const pageQuery = graphql`
         pageEvents {
           eventDescription
           eventImage {
-            image
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             alt
           }
           title
