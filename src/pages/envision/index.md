@@ -13,16 +13,4 @@ pageEvents:
     eventImage:
       image: /img/dsc_0359.jpg
       alt: test test
-  - title: test title
-    eventDescription: "test description #3"
-    eventImage:
-      image: /img/flavor_wheel.jpg
-      alt: "test alt "
-    link: sweucsd.org/envision
-  - title: test3
-    eventDescription: test3
-    eventImage:
-      image: /img/apple-touch-icon.png
-      alt: test3
-    link: test3
 ---
