@@ -19,4 +19,10 @@ pageEvents:
       image: /img/flavor_wheel.jpg
       alt: "test alt "
     link: sweucsd.org/envision
+  - title: test3
+    eventDescription: test3
+    eventImage:
+      image: /img/apple-touch-icon.png
+      alt: test3
+    link: test3
 ---
