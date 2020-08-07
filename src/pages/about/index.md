@@ -57,10 +57,6 @@ sweOfficers:
     image: https://i.imgur.com/y0hJ4sH.jpg
     name: Elianor Shohet
     position: Publicity Chair
-  - email: N4lopez@ucsd.edu
-    image: https://i.imgur.com/XcMFcGL.jpg
-    name: Natalie Lopez
-    position: Social Chair
   - name: Erin Griggs
     email: egriggs@ucsd.edu
     position: "EDGE Outreach Chair "
