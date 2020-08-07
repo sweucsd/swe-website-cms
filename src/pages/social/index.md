@@ -7,13 +7,13 @@ subheading: Come join the women of UC San Diego SWE to meet new friends, take a
 sectionTitle: SOCIAL EVENTS
 sectionDescription: "Check out our social events! "
 pageEvents:
-  - title: test
-    eventDescription: new test
+  - title: Test Title
+    eventDescription: "Test Event Description "
     image:
       image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
       alt: asdfasdf
-    link: https://www.youtube.com/
+    link: link
     eventImage:
-      image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
-      alt: blue fish
+      image: /img/erin-swe.jpg
+      alt: erin swe
 ---
