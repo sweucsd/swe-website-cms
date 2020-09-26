@@ -8,7 +8,7 @@ sectionTitle: SOCIAL EVENTS
 sectionDescription: "Check out our social events! "
 pageEvents:
   - title: Test Title
-    eventDescription: "Test Event Description "
+    eventDescription: Test Event Description oiawej
     image:
       image: /img/b7043007-84ad-4edc-8fba-2275536f725f.jpg
       alt: asdfasdf
