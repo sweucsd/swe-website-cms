@@ -15,7 +15,7 @@ sectionDescription: UC San Diego Society of Women Engineers is a diverse group
 sweOfficers:
   - email: btorquat@ucsd.edu
     image: https://i.imgur.com/DjlBbwM.jpg
-    name: Brea Torquato
+    name: "Magali Chavez "
     position: President
   - email: pks007@ucsd.edu
     image: https://i.imgur.com/BZZyXFo.jpg
